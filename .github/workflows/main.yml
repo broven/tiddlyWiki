@@ -30,15 +30,6 @@ jobs:
           username: ${{ secrets.ALIYUN_USERNAME}}
           password: ${{ secrets.ALIYUN_TOKEN}}
       -
-        name: sync github description to dockerhub
-        uses: meeDamian/sync-readme@v1.0.6
-        with:
-          pass: ${{ secrets.DOCKER_PASS }}
-          description: true
-          slug: metajs/tiddlywiki
-          user: metajs
-          readme: ./README.md
-      -
         name: Build and push
         id: docker_build
         uses: docker/build-push-action@v2
