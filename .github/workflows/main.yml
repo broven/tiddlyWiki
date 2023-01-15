@@ -35,6 +35,9 @@ jobs:
         with:
           pass: ${{ secrets.DOCKER_PASS }}
           description: true
+          slug: metajs/tiddlywiki
+          user: metajs
+          readme: ./README.md
       -
         name: Build and push
         id: docker_build
