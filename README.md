@@ -1,5 +1,11 @@
+# Usage
+```
+docker pull metajs/tiddlywiki
+# For china user
+docker pull registry.cn-shanghai.aliyuncs.com/metajs/tiddlywiki
+```
 # tiddlyWiki
-AutoMate build TiddlyWiki5 Docker images
+tiddlyWiki5 Docker images
 # Volume
 - /note
 # port
