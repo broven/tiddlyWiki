@@ -38,5 +38,5 @@ jobs:
           tags: |
             metajs/tiddlywiki:latest
             metajs/tiddlywiki:${{ steps.date.outputs.date }}
-            registry.cn-hangzhou.aliyuncs.com/metajs/tiddlywiki:latest
-            registry.cn-hangzhou.aliyuncs.com/metajs/tiddlywiki:${{ steps.date.outputs.date }}
+            registry.cn-shanghai.aliyuncs.com/metajs/tiddlywiki:latest
+            registry.cn-shanghai.aliyuncs.com/metajs/tiddlywiki:${{ steps.date.outputs.date }}
